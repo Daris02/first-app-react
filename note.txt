@@ -1,0 +1,13 @@
+Project :
+regrouper en components les elements composant
+regrouper en pages les elements qui regroupe plusieaur elements comme le navbar, list d'element 
+regroupes en css pour tous les fichiers css qui seront unique pour chaque composant 
+
+install react router :
+	- npm i react-router-dom
+	Ajouter : ...<BrowserRouter><App/><BrowserRouter/>... , in index.js
+	import { Routes, Route} in App.js 
+	... <Routes>
+			<Route path='/' element={ <composantAAfficher /> } />
+		<Routes/>
+	...

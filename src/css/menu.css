@@ -1,0 +1,17 @@
+.menu {
+    font-size: 1.2em;
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activeLink {
+    font-weight: bold;
+    color: #07c5fa;
+}

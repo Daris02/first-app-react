@@ -1,0 +1,14 @@
+@import './home.css';
+@import './menu.css';
+@import './add.css';
+@import './list.css';
+@import './bootstrap.css';
+
+* {
+    font-family: sans-serif;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
